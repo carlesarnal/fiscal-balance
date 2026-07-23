@@ -1,0 +1,31 @@
+{
+  "fuente": "INE - Encuesta Anual de Estructura Salarial (EAES)",
+  "url": "https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177025&menu=resultados&idp=1254735976596",
+  "periodo": "2022-2023",
+  "fecha_acceso": "2025-07",
+  "notas": "Salario bruto medio anual. El INE distingue española, UE y extra-UE. Las cifras por país concreto son estimaciones.",
+  "datos": {
+    "salario_medio_bruto_anual": {
+      "total_nacional": 27642,
+      "por_nacionalidad": {
+        "espanola": 28360,
+        "extranjera_ue": 20500,
+        "extranjera_resto_europa": 18900,
+        "extranjera_america_latina": 17800,
+        "extranjera_africa": 16200,
+        "extranjera_asia_oceania": 19058
+      },
+      "por_sexo": {
+        "hombres": 30930,
+        "mujeres": 24359
+      }
+    },
+    "salario_mediano_bruto_anual": {
+      "total_nacional": 22383,
+      "por_nacionalidad": {
+        "espanola": 23200,
+        "extranjera": 16800
+      }
+    }
+  }
+}

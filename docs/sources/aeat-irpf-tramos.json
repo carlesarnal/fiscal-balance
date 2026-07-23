@@ -1,0 +1,36 @@
+{
+  "fuente": "Agencia Tributaria - Tramos IRPF 2024-2025 (escala estatal + autonómica general)",
+  "url": "https://sede.agenciatributaria.gob.es/Sede/datosabiertos/catalogo/hacienda/Estadistica_de_los_declarantes_del_IRPF.shtml",
+  "fecha_acceso": "2025-07",
+  "notas": "Escala general del IRPF. Las CCAA pueden modificar los tramos autonómicos, pero la escala estatal se aplica siempre. Los tipos aquí son la suma de la escala estatal + escala autonómica general.",
+  "tramos": [
+    { "desde": 0, "hasta": 12450, "tipo_marginal": 0.19 },
+    { "desde": 12450, "hasta": 20200, "tipo_marginal": 0.24 },
+    { "desde": 20200, "hasta": 35200, "tipo_marginal": 0.30 },
+    { "desde": 35200, "hasta": 60000, "tipo_marginal": 0.37 },
+    { "desde": 60000, "hasta": 300000, "tipo_marginal": 0.45 },
+    { "desde": 300000, "hasta": null, "tipo_marginal": 0.47 }
+  ],
+  "minimo_personal": 5550,
+  "minimo_descendientes": {
+    "primer_hijo": 2400,
+    "segundo_hijo": 2700,
+    "tercer_hijo": 4000,
+    "cuarto_y_siguientes": 4500
+  },
+  "cotizaciones_ss": {
+    "trabajador_contingencias_comunes": 0.047,
+    "trabajador_desempleo": 0.0155,
+    "trabajador_formacion_profesional": 0.001,
+    "trabajador_mei": 0.0015,
+    "total_trabajador": 0.065,
+    "empresario_contingencias_comunes": 0.236,
+    "empresario_desempleo": 0.055,
+    "empresario_fogasa": 0.002,
+    "empresario_formacion_profesional": 0.006,
+    "empresario_mei": 0.0075,
+    "total_empresario": 0.3065,
+    "base_maxima_mensual": 5101.20,
+    "base_maxima_anual": 61214.40
+  }
+}

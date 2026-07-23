@@ -1,0 +1,52 @@
+{
+  "fuente": "Agencia Tributaria - Estadísticas IRPF 2023 (territorio común, excl. País Vasco y Navarra)",
+  "url": "https://sede.agenciatributaria.gob.es/AEAT/Contenidos_Comunes/La_Agencia_Tributaria/Estadisticas/Publicaciones/sites/irpf/2023/home.html",
+  "fecha_acceso": "2025-07",
+  "total_declarantes": 24000000,
+  "recaudacion_total_irpf_millones": 118000,
+  "declaraciones_a_ingresar_pct": 47,
+  "declaraciones_a_devolver_pct": 53,
+  "tramos": [
+    {
+      "rango": "< 21.000 €",
+      "declarantes": 13000000,
+      "pct_declarantes": 54.5,
+      "irpf_pagado_millones": 8000,
+      "pct_recaudacion": 6.8,
+      "cuota_media": 615
+    },
+    {
+      "rango": "21.000 – 30.000 €",
+      "declarantes": 4300000,
+      "pct_declarantes": 18.0,
+      "irpf_pagado_millones": 16500,
+      "pct_recaudacion": 14.0,
+      "cuota_media": 3761
+    },
+    {
+      "rango": "30.000 – 60.000 €",
+      "declarantes": 5300000,
+      "pct_declarantes": 22.0,
+      "irpf_pagado_millones": 44000,
+      "pct_recaudacion": 37.5,
+      "cuota_media": 8300
+    },
+    {
+      "rango": "60.000 – 150.000 €",
+      "declarantes": 1200000,
+      "pct_declarantes": 4.9,
+      "irpf_pagado_millones": 34000,
+      "pct_recaudacion": 28.8,
+      "cuota_media": 28700
+    },
+    {
+      "rango": "> 150.000 €",
+      "declarantes": 160000,
+      "pct_declarantes": 0.7,
+      "irpf_pagado_millones": 15600,
+      "pct_recaudacion": 13.3,
+      "cuota_media": 97500
+    }
+  ],
+  "notas": "El 5,6% de los declarantes con rentas superiores a 60.000 € aportan el 42,1% de toda la recaudación por IRPF. Los 160.000 declarantes con rentas superiores a 150.000 € aportan más que los 13 millones que ganan menos de 21.000 €."
+}

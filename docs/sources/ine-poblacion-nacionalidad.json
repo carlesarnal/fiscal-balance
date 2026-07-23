@@ -1,0 +1,26 @@
+{
+  "fuente": "INE - Estadística Continua de Población / Censo 2025",
+  "url": "https://www.ine.es/dyngs/Prensa/ECP4T24.htm",
+  "periodo": "Enero 2025",
+  "fecha_acceso": "2025-07",
+  "poblacion_total_espana": 48946035,
+  "poblacion_extranjera_total": 6778000,
+  "porcentaje_extranjeros": 13.8,
+  "principales_nacionalidades": [
+    { "nacionalidad": "Marruecos", "poblacion": 969000 },
+    { "nacionalidad": "Colombia", "poblacion": 677000 },
+    { "nacionalidad": "Rumanía", "poblacion": 609000 },
+    { "nacionalidad": "Ecuador", "poblacion": 396000 },
+    { "nacionalidad": "Venezuela", "poblacion": 335000 },
+    { "nacionalidad": "China", "poblacion": 252000 },
+    { "nacionalidad": "Perú", "poblacion": 245000 },
+    { "nacionalidad": "Italia", "poblacion": 235000 },
+    { "nacionalidad": "Honduras", "poblacion": 195000 },
+    { "nacionalidad": "Reino Unido", "poblacion": 185000 },
+    { "nacionalidad": "Bolivia", "poblacion": 178000 },
+    { "nacionalidad": "Argentina", "poblacion": 175000 },
+    { "nacionalidad": "Alemania", "poblacion": 155000 },
+    { "nacionalidad": "Francia", "poblacion": 148000 },
+    { "nacionalidad": "Paraguay", "poblacion": 135000 }
+  ]
+}

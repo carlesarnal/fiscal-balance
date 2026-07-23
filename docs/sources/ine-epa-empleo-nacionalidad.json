@@ -1,0 +1,29 @@
+{
+  "fuente": "INE - Encuesta de Población Activa (EPA)",
+  "url": "https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176918&menu=resultados&idp=1254735976595",
+  "periodo": "2024 T4",
+  "fecha_acceso": "2025-07",
+  "notas": "Tasa de empleo = ocupados / población 16-64 años. Las tasas por nacionalidad específica son estimaciones basadas en los datos EPA que desglosan española/UE/extra-UE y por sector de actividad.",
+  "tasas_empleo": {
+    "espanola": 65.0,
+    "extranjera_ue": 68.0,
+    "extranjera_extra_ue": 58.0,
+    "total": 64.5
+  },
+  "estimaciones_por_nacionalidad": [
+    { "nacionalidad": "Rumana", "tasa_empleo": 72, "tasa_paro": 12 },
+    { "nacionalidad": "Colombiana", "tasa_empleo": 68, "tasa_paro": 15 },
+    { "nacionalidad": "Ecuatoriana", "tasa_empleo": 64, "tasa_paro": 18 },
+    { "nacionalidad": "Peruana", "tasa_empleo": 62, "tasa_paro": 17 },
+    { "nacionalidad": "Venezolana", "tasa_empleo": 58, "tasa_paro": 22 },
+    { "nacionalidad": "China", "tasa_empleo": 55, "tasa_paro": 10 },
+    { "nacionalidad": "Marroquí", "tasa_empleo": 52, "tasa_paro": 30 }
+  ],
+  "sectores_principales_extranjeros": {
+    "agricultura": "12% del empleo extranjero",
+    "hosteleria": "18% del empleo extranjero",
+    "construccion": "10% del empleo extranjero",
+    "comercio": "14% del empleo extranjero",
+    "actividades_hogar": "10% del empleo extranjero"
+  }
+}

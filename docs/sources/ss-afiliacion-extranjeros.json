@@ -1,0 +1,26 @@
+{
+  "fuente": "Seguridad Social - Afiliación de trabajadores extranjeros",
+  "url": "https://www.seg-social.es/wps/portal/wss/internet/EstadisticasPresupuestosEstudios/Estadisticas/EST8/EST10/EST305/EST307",
+  "periodo": "2024 (media anual)",
+  "fecha_acceso": "2025-07",
+  "total_afiliados_extranjeros": 2920000,
+  "datos_por_nacionalidad": [
+    { "nacionalidad": "Marruecos", "afiliados": 422000 },
+    { "nacionalidad": "Rumanía", "afiliados": 343000 },
+    { "nacionalidad": "Colombia", "afiliados": 264000 },
+    { "nacionalidad": "Italia", "afiliados": 175000 },
+    { "nacionalidad": "Venezuela", "afiliados": 148000 },
+    { "nacionalidad": "Honduras", "afiliados": 124000 },
+    { "nacionalidad": "Ecuador", "afiliados": 112000 },
+    { "nacionalidad": "China", "afiliados": 108000 },
+    { "nacionalidad": "Argentina", "afiliados": 175000 },
+    { "nacionalidad": "Perú", "afiliados": 130000 },
+    { "nacionalidad": "Bolivia", "afiliados": 95000 },
+    { "nacionalidad": "Francia", "afiliados": 95000 },
+    { "nacionalidad": "Ucrania", "afiliados": 75000 },
+    { "nacionalidad": "Portugal", "afiliados": 65000 },
+    { "nacionalidad": "Reino Unido", "afiliados": 65000 },
+    { "nacionalidad": "Alemania", "afiliados": 58000 },
+    { "nacionalidad": "Estados Unidos", "afiliados": 15000 }
+  ]
+}

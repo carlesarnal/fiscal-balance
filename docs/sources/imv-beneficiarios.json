@@ -1,0 +1,14 @@
+{
+  "fuente": "INSS / Newtral (verificación de datos oficiales)",
+  "url": "https://www.newtral.es/extranjeros-beneficiarios-imv-rentas-insercion/20251007/",
+  "periodo": "2024-2025",
+  "fecha_acceso": "2025-07",
+  "notas": "El Ingreso Mínimo Vital (IMV) y las rentas de inserción autonómicas. Los extranjeros representan aproximadamente el 17% de los beneficiarios del IMV.",
+  "datos": {
+    "beneficiarios_imv_total": 630000,
+    "porcentaje_espanoles": 83,
+    "porcentaje_extranjeros": 17,
+    "importe_medio_mensual": 490,
+    "notas_adicionales": "Para acceder al IMV se requiere residencia legal de al menos un año. Los extranjeros en situación irregular no pueden solicitarlo."
+  }
+}

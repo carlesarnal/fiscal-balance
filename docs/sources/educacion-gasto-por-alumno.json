@@ -1,0 +1,16 @@
+{
+  "fuente": "Ministerio de Educación, Formación Profesional y Deportes",
+  "url": "https://www.educacionfpydeportes.gob.es/servicios-al-ciudadano/estadisticas/economicas/gasto.html",
+  "periodo": "2022-2023",
+  "fecha_acceso": "2025-07",
+  "gasto_publico_por_alumno_total": 8293,
+  "notas": "Gasto público por alumno en enseñanzas no universitarias de régimen general. Incluye educación infantil, primaria, ESO, bachillerato y FP.",
+  "por_nivel_educativo": {
+    "educacion_infantil": 7200,
+    "educacion_primaria": 7500,
+    "eso": 8800,
+    "bachillerato": 8500,
+    "fp": 9200,
+    "educacion_especial": 24000
+  }
+}

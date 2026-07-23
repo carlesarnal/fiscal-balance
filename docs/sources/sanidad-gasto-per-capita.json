@@ -1,0 +1,24 @@
+{
+  "fuente": "Ministerio de Sanidad - Estadística de Gasto Sanitario Público (EGSP)",
+  "url": "https://www.sanidad.gob.es/estadEstudios/sanidadDatos/tablas/tabla30_1.htm",
+  "periodo": "2024",
+  "fecha_acceso": "2025-07",
+  "gasto_sanitario_publico_per_capita": 2084,
+  "notas": "Media nacional. Varía por CCAA: País Vasco (~2.800€), Madrid (~1.900€), Andalucía (~1.700€).",
+  "por_ccaa": [
+    { "ccaa": "País Vasco", "per_capita": 2800 },
+    { "ccaa": "Navarra", "per_capita": 2650 },
+    { "ccaa": "Asturias", "per_capita": 2500 },
+    { "ccaa": "Cantabria", "per_capita": 2350 },
+    { "ccaa": "Aragón", "per_capita": 2200 },
+    { "ccaa": "Cataluña", "per_capita": 2100 },
+    { "ccaa": "Galicia", "per_capita": 2100 },
+    { "ccaa": "Castilla y León", "per_capita": 2100 },
+    { "ccaa": "Media nacional", "per_capita": 2084 },
+    { "ccaa": "Comunidad Valenciana", "per_capita": 1950 },
+    { "ccaa": "Madrid", "per_capita": 1900 },
+    { "ccaa": "Canarias", "per_capita": 1850 },
+    { "ccaa": "Murcia", "per_capita": 1800 },
+    { "ccaa": "Andalucía", "per_capita": 1700 }
+  ]
+}
