@@ -3,8 +3,11 @@ import { NavLink } from 'react-router';
 
 const links = [
   { to: '/', label: 'Inicio' },
-  { to: '/calculadora', label: 'Calculadora' },
-  { to: '/dashboard', label: 'Dashboard' },
+  { to: '/quien-paga', label: 'Quién paga' },
+  { to: '/tus-impuestos', label: 'Tus impuestos' },
+  { to: '/pensiones', label: 'Pensiones' },
+  { to: '/espana-vs-europa', label: 'España vs Europa' },
+  { to: '/inmigracion', label: 'Inmigración' },
   { to: '/metodologia', label: 'Metodología' },
 ];
 
@@ -16,17 +19,17 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <NavLink to="/" className="text-lg font-bold text-primary truncate">
-            Saldo Fiscal Inmigración
+            Radiografía Fiscal
           </NavLink>
 
-          <nav className="hidden md:flex space-x-1">
+          <nav className="hidden lg:flex space-x-1">
             {links.map((link) => (
               <NavLink
                 key={link.to}
                 to={link.to}
                 end={link.to === '/'}
                 className={({ isActive }) =>
-                  `px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+                  `px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
                     isActive
                       ? 'bg-primary text-white'
                       : 'text-gray-600 hover:bg-gray-100'
@@ -39,7 +42,7 @@ export default function Header() {
           </nav>
 
           <button
-            className="md:hidden p-2 rounded-lg hover:bg-gray-100"
+            className="lg:hidden p-2 rounded-lg hover:bg-gray-100"
             onClick={() => setMenuOpen(!menuOpen)}
             aria-label="Menú"
           >
@@ -54,7 +57,7 @@ export default function Header() {
         </div>
 
         {menuOpen && (
-          <nav className="md:hidden pb-4 space-y-1">
+          <nav className="lg:hidden pb-4 space-y-1">
             {links.map((link) => (
               <NavLink
                 key={link.to}
