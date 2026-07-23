@@ -70,7 +70,7 @@ export default function SummaryTable() {
 
       <p className="text-xs text-gray-400 mt-3">
         Fuente: estimación propia con datos INE, Seguridad Social, Ministerio de Sanidad y Ministerio de Educación.
-        Los jubilados muestran salario 0 porque cobran pensiones extranjeras que no cotizan en España.
+        Los jubilados pagan IRPF sobre su pensión e IVA sobre su consumo, pero no cotizan a la Seguridad Social. La pensión española es además un coste para el Estado. La pensión extranjera puede no tributar IRPF en España según el convenio de doble imposición.
       </p>
     </div>
   );

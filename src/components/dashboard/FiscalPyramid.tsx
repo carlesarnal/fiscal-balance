@@ -131,25 +131,28 @@ export default function FiscalPyramid() {
         </div>
       </div>
 
-      {/* Quién no contribuye */}
+      {/* Receptores netos */}
       <div className="grid lg:grid-cols-2 gap-6">
         <div className="bg-white border border-gray-200 rounded-xl p-5">
           <h4 className="text-base font-semibold text-gray-900 mb-3">
-            Población que no contribuye IRPF/SS (~{formatNumber(noContribuyentes.reduce((s, n) => s + n.cantidad, 0))})
+            Receptores netos (~{formatNumber(noContribuyentes.reduce((s, n) => s + n.cantidad, 0))})
           </h4>
+          <p className="text-xs text-gray-500 mb-3">
+            Reciben del Estado más de lo que aportan. Algunos tributan (IRPF, IVA), pero su aportación no cubre lo que consumen.
+          </p>
           <div className="space-y-2">
             {noContribuyentes.map((n, i) => (
-              <div key={i} className="flex items-center justify-between py-1.5 border-b border-gray-100 last:border-0">
-                <span className="text-sm text-gray-700">
-                  <span className="mr-2">{n.icono}</span>{n.grupo}
-                </span>
-                <span className="text-sm font-medium text-gray-900">{formatNumber(n.cantidad)}</span>
+              <div key={i} className="py-1.5 border-b border-gray-100 last:border-0">
+                <div className="flex items-center justify-between">
+                  <span className="text-sm text-gray-700">
+                    <span className="mr-2">{n.icono}</span>{n.grupo}
+                  </span>
+                  <span className="text-sm font-medium text-gray-900">{formatNumber(n.cantidad)}</span>
+                </div>
+                <p className="text-xs text-gray-400 ml-7">{n.nota}</p>
               </div>
             ))}
           </div>
-          <p className="text-xs text-gray-400 mt-3">
-            Nota: pensionistas y desempleados pagan IRPF sobre sus prestaciones, pero son receptores netos.
-          </p>
         </div>
 
         <div className="bg-white border border-gray-200 rounded-xl p-5">

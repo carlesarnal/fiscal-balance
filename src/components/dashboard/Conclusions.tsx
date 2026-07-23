@@ -82,9 +82,11 @@ export default function Conclusions() {
           <ol className="list-decimal ml-5 space-y-2">
             <li>
               <strong>Un jubilado europeo en la costa tiene un saldo fiscal peor que un
-              trabajador marroquí en la agricultura.</strong> El jubilado no cotiza, no paga
-              IRPF en España y usa sanidad pública. El trabajador, aunque cobre poco,
-              genera ingresos fiscales reales.
+              trabajador marroquí en la agricultura.</strong> El jubilado europeo paga IVA
+              pero generalmente no tributa IRPF en España (convenio de doble imposición),
+              no cotiza a la SS y usa sanidad pública. El jubilado español sí paga IRPF
+              sobre su pensión, pero la propia pensión es un coste para el Estado. El
+              trabajador inmigrante, aunque cobre poco, genera ingresos fiscales netos reales.
             </li>
             <li>
               <strong>La diferencia entre colectivos trabajadores es mucho menor de lo que

@@ -231,7 +231,7 @@ export const presetProfiles: PerfilPredefinido[] = [
   {
     id: 'jubilado-europeo',
     nombre: 'Jubilado europeo',
-    descripcion: 'Jubilado del norte de Europa residente en España. No trabaja, cobra pensión extranjera (no cotiza en España), usa sanidad pública.',
+    descripcion: 'Jubilado del norte de Europa residente en España. Cobra pensión extranjera (~24.000€/año). Paga IVA pero generalmente no tributa IRPF en España (convenio doble imposición). Usa sanidad pública.',
     input: {
       salarioBrutoAnual: 0,
       miembrosHogar: 2,
@@ -240,12 +240,14 @@ export const presetProfiles: PerfilPredefinido[] = [
       usaSanidadPublica: true,
       recibePrestacioesSociales: false,
       importePrestaciones: 0,
+      pensionAnual: 24000,
+      pensionTributaEnEspana: false,
     },
   },
   {
     id: 'jubilado-espanol',
     nombre: 'Jubilado español',
-    descripcion: 'Jubilado español medio. No trabaja, cobra pensión (no incluida como salario en este modelo), usa sanidad pública.',
+    descripcion: 'Jubilado español medio. Cobra pensión de jubilación (~17.364€/año = 1.447€/mes × 12). Paga IRPF sobre la pensión y paga IVA. No cotiza a la SS. La pensión es un coste para el Estado.',
     input: {
       salarioBrutoAnual: 0,
       miembrosHogar: 2,
@@ -254,6 +256,8 @@ export const presetProfiles: PerfilPredefinido[] = [
       usaSanidadPublica: true,
       recibePrestacioesSociales: false,
       importePrestaciones: 0,
+      pensionAnual: 17364,
+      pensionTributaEnEspana: true,
     },
   },
   // África / Asia

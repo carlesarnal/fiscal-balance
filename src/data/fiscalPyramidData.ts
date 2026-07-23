@@ -26,14 +26,14 @@ export const seguridadSocial = {
   ratioCotizantesPensionista: 2.44,
 };
 
-// Quién no contribuye (neto)
+// Receptores netos (tributan algo pero reciben mucho más de lo que aportan)
 export const noContribuyentes = [
-  { grupo: 'Menores de 16 años', cantidad: 7_500_000, icono: '👶' },
-  { grupo: 'Pensionistas / jubilados', cantidad: 9_260_000, icono: '🧓' },
-  { grupo: 'Desempleados registrados', cantidad: 2_560_000, icono: '📋' },
-  { grupo: 'Estudiantes mayores de 16', cantidad: 3_600_000, icono: '🎓' },
-  { grupo: 'Labores del hogar', cantidad: 3_400_000, icono: '🏠' },
-  { grupo: 'Otros inactivos (incapacidad, etc.)', cantidad: 1_800_000, icono: '🏥' },
+  { grupo: 'Menores de 16 años', cantidad: 7_500_000, icono: '👶', nota: 'No tributan' },
+  { grupo: 'Pensionistas / jubilados', cantidad: 9_260_000, icono: '🧓', nota: 'Tributan IRPF + IVA, pero la pensión media (~15.120€/año) queda casi exenta tras el mínimo personal. Son receptores netos claros.' },
+  { grupo: 'Desempleados registrados', cantidad: 2_560_000, icono: '📋', nota: 'Tributan sobre la prestación pero son receptores netos' },
+  { grupo: 'Estudiantes mayores de 16', cantidad: 3_600_000, icono: '🎓', nota: 'No tributan' },
+  { grupo: 'Labores del hogar', cantidad: 3_400_000, icono: '🏠', nota: 'Solo pagan IVA' },
+  { grupo: 'Otros inactivos (incapacidad, etc.)', cantidad: 1_800_000, icono: '🏥', nota: 'Tributan sobre prestación si la hay' },
 ];
 
 // Beneficiarios de gasto público

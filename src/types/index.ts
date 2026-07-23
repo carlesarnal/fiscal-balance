@@ -6,6 +6,8 @@ export interface HouseholdInput {
   usaSanidadPublica: boolean;
   recibePrestacioesSociales: boolean;
   importePrestaciones: number;
+  pensionAnual?: number;
+  pensionTributaEnEspana?: boolean;
 }
 
 export interface FiscalResult {

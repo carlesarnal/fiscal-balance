@@ -102,6 +102,37 @@ export default function CalculatorForm({ input, onChange }: Props) {
         </select>
       </div>
 
+      {/* Pensión */}
+      <div>
+        <label className="block text-sm font-medium text-gray-700 mb-1">
+          Pensión anual bruta (jubilado)
+          <InfoTooltip text="Si algún miembro del hogar cobra pensión. La pensión media de jubilación en España es ~17.364€/año (1.447€/mes). Las pensiones tributan IRPF pero no cotizan a la SS." />
+        </label>
+        <input
+          type="number"
+          min={0}
+          max={80000}
+          step={500}
+          value={input.pensionAnual ?? 0}
+          onChange={(e) => update('pensionAnual', Math.max(0, Number(e.target.value)))}
+          className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm"
+        />
+        {(input.pensionAnual ?? 0) > 0 && (
+          <label className="flex items-center gap-3 mt-2 cursor-pointer">
+            <input
+              type="checkbox"
+              checked={input.pensionTributaEnEspana ?? true}
+              onChange={(e) => update('pensionTributaEnEspana', e.target.checked)}
+              className="w-4 h-4 accent-primary"
+            />
+            <span className="text-sm text-gray-700">
+              La pensión tributa IRPF en España
+              <InfoTooltip text="Las pensiones españolas siempre tributan en España. Las pensiones extranjeras pueden no tributar aquí según el convenio de doble imposición del país de origen." />
+            </span>
+          </label>
+        )}
+      </div>
+
       {/* Toggles */}
       <div className="space-y-3">
         <label className="flex items-center gap-3 cursor-pointer">
